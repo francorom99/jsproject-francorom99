@@ -1,1 +1,55 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(30, 35, 61);
+  background: radial-gradient(
+    circle,
+    rgba(26, 09, 48, 1) 0%,
+    rgba(28, 28, 28, 1) 100%
+  );
+}
+.mt-5 {
+  color: white;
+  animation: mt-5 2s ease 0s 1 normal forwards;
+}
+
+#excuse {
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 1px 0px rgba(196, 196, 196, 0.6);
+  background: none;
+  animation: excuse 2s ease 0s 1 normal forwards;
+}
+
+@keyframes excuse {
+  0% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes mt-5 {
+  0% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+h1 {
+  text-shadow: 2px 1px 0px rgba(196, 196, 196, 0.6);
+  background: none;
+}
+.fixed-bottom,
+.p4 {
+  color: white;
+}
+.p-4 a {
+  text-decoration: none;
+}
